@@ -1,0 +1,188 @@
+*
+{
+  box-sizing: border-box;
+}
+
+
+
+.shapka
+{
+   
+   display: flex;
+   justify-content: flex-end;
+}
+
+.spisok
+{
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-right: 240px;
+}
+
+.silka
+{
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+.silka:hover
+{
+    text-decoration: underline;
+   color:darkblue;
+   
+}
+
+
+.slovo:hover
+{
+    color: darkblue;
+}
+section {
+	background: url(image2.png)  center top;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+.mount {
+	position: absolute;
+	margin-left: 15vh;
+	top: 445px;
+	color: white;
+
+
+	font-family:  'Secular One', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.slovo
+{
+    transition: all 500ms ease;
+    font-family:  'Secular One', sans-serif;
+    color: #252525;
+    font-style: normal;
+    font-weight: bold;
+
+    line-height: 24px;
+    margin-right: 30px;;
+}
+
+
+
+
+
+
+
+
+.block
+{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.sag
+{
+    color:  #252525;;
+    font-family:  'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 50px;
+
+}
+
+.lini
+{
+    margin-bottom: 40px;
+}
+
+.text-pod
+{
+    
+    font-family:  'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #252525;
+}
+
+
+
+.block2
+{
+    width: 85%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.cases
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.case
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 22%;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.case-text
+{
+    height: 40%;
+    font-family:  'Secular One', sans-serif;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+}
+
+.case-button
+{
+    box-sizing: border-box;
+	transition: all 500ms ease;
+    border: none;
+    position: relative;
+text-decoration: none;
+    height: 40px;
+   margin-left: 25px;
+   margin-right: 25px;
+   margin-bottom: 25px;
+   background: #252525;
+
+}
+.case-button-text
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.end
+{
+    height: 200px;
+}
+
+
+
+
+.case-button:hover{
+	background: darkblue;
+	color: #3a7999;
+	
+}
+
+
